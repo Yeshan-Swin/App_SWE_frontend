@@ -10,22 +10,7 @@
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
-
-  /* ---- Brand colors & fonts (your Ford theme) ---- */
-  --color-navyblue: #00095b;
-  --color-lightnavyblue: #1700f4;
-  --color-raspberry: #cc3366;
-  --color-lightraspberry: #f6a6bf;
-  --color-fordtwilight: #00142e;
-  --color-fordskyview: #066FEF;
-
-  --font-ford1bold: Ford1_Bold;
-  --font-ford1light: Ford1_Light;
-  --font-fordmedium: Ford1_Medium;
-  --font-fordregular: Ford1_Regular;
-  --font-fordsemibold: Ford1_Semibold;
-  --font-fordvf: Ford1_VF;
-
+  
   /* ---- Semantic colors (replaces theme.extend.colors.*) ----
      These reference HSL tuples defined below in :root/.dark.
      Now you can keep using utilities like:
