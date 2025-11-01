@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import "@/App.css";
 
 export default function AuthModal({ open, onClose, onLogin }) {
   const [mode, setMode] = useState("login");
